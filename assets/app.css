@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 20px;
+}
+
+.text {
+	margin-bottom: 20px;
+	font-size: 20pt;
+	max-width: 100%;
+	width: 400px;
+	padding: .25em;
+}
+
+.rune-line {
+	margin-bottom: 20px;
+}
+
+.armanen-rune {
+	width: 52em;
+	height: 60em;
+	position: relative;
+	font-size: 2px;
+	display: inline-block;
+}
+.armanen-rune:not(:last-child) {
+	margin-right: 10em;
+}
+
+.armanen [class^="n"] {
+	position: absolute;
+	width: 2em;
+	height: 30em;
+	background-color: #eee;
+}
+.armanen [class^="n"].draw {
+	background-color: #212121;
+	z-index: 1;
+}
+
+.armanen .n01 {
+	top: -7.5em;
+	left: 39em;
+	transform: rotate(-60deg);
+}
+.armanen .n12 {
+	top: 15em;
+	left: 52em;
+	transform: rotate(-0deg);
+}
+.armanen .n23 {
+	top: 37em;
+	left: 39em;
+	transform: rotate(60deg);
+}
+.armanen .n34 {
+	top: 37em;
+	left: 13em;
+	transform: rotate(-60deg);
+}
+.armanen .n45 {
+	top: 15em;
+	left: 0;
+	transform: rotate(-0deg);
+}
+.armanen .n50 {
+	top: -7.5em;
+	left: 13em;
+	transform: rotate(60deg);
+}
+.armanen .n60 {
+	top: 0;
+	left: 26em;
+	transform: rotate(-0deg);
+}
+.armanen .n61 {
+	top: 7.5em;
+	left: 39em;
+	transform: rotate(60deg);
+}
+.armanen .n62 {
+	top: 22.5em;
+	left: 39em;
+	transform: rotate(-60deg);
+}
+.armanen .n63 {
+	top: 30em;
+	left: 26em;
+	transform: rotate(-0deg);
+}
+.armanen .n64 {
+	top: 22.5em;
+	left: 13em;
+	transform: rotate(60deg);
+}
+.armanen .n65 {
+	top: 7.5em;
+	left: 13em;
+	transform: rotate(-60deg);
+}
+
+
+
+.futark-rune {
+	width: 35em;
+	height: 60em;
+	position: relative;
+	font-size: 2px;
+	display: inline-block;
+}
+.futark-rune:not(:last-child) {
+	margin-right: 10em;
+}
+
+.futark [class^="n"] {
+	position: absolute;
+	width: 1em;
+	height: 20em;
+	background-color: #eee;
+}
+.futark [class^="n"].draw {
+	background-color: #212121;
+	z-index: 1;
+}
+
+.futark .n01 {
+	top: 0;
+	left: 0;
+	transform: rotate(-0deg);
+}
+.futark .n12 {
+	top: 20em;
+	left: 0;
+	transform: rotate(-0deg);
+}
+.futark .n13 {
+	top: 40em;
+	left: 0;
+	transform: rotate(-0deg);
+}
+.futark .n45 {
+	height: 10em;
+	top: 0;
+	left: 17em;
+	transform: rotate(-0deg);
+}
+.futark .n56 {
+	top: 10em;
+	left: 17em;
+	transform: rotate(-0deg);
+}
+.futark .n67 {
+	top: 30em;
+	left: 17em;
+	transform: rotate(-0deg);
+}
+.futark .n78 {
+	height: 10em;
+	top: 50em;
+	left: 17em;
+	transform: rotate(-0deg);
+}
+.futark .n9A {
+	top: 0;
+	left: 34em;
+	transform: rotate(-0deg);
+}
+.futark .nAB {
+	top: 20em;
+	left: 34em;
+	transform: rotate(-0deg);
+}
+.futark .nBC {
+	top: 40em;
+	left: 34em;
+	transform: rotate(-0deg);
+}
+.futark .n05 {
+	top: -5em;
+	left: 8.5em;
+	transform: rotate(-60deg);
+}
+.futark .n51 {
+	top: 5em;
+	left: 8.5em;
+	transform: rotate(60deg);
+}
+.futark .n16 {
+	top: 15.25em;
+	left: 8.5em;
+	transform: rotate(-60deg);
+}
+.futark .n62 {
+	top: 25.25em;
+	left: 8.5em;
+	transform: rotate(60deg);
+}
+.futark .n27 {
+	top: 35em;
+	left: 8.5em;
+	transform: rotate(-60deg);
+}
+.futark .n73 {
+	top: 45em;
+	left: 8.5em;
+	transform: rotate(60deg);
+}
+.futark .n95 {
+	top: -5em;
+	left: 25.75em;
+	transform: rotate(60deg);
+}
+.futark .n5A {
+	top: 5em;
+	left: 25.75em;
+	transform: rotate(-60deg);
+}
+.futark .nA6 {
+	top: 15.25em;
+	left: 25.75em;
+	transform: rotate(60deg);
+}
+.futark .n6B {
+	top: 25.25em;
+	left: 25.75em;
+	transform: rotate(-60deg);
+}
+.futark .nB7 {
+	top: 35em;
+	left: 25.75em;
+	transform: rotate(60deg);
+}
+.futark .n7C {
+	top: 45em;
+	left: 25.75em;
+	transform: rotate(-60deg);
+}
